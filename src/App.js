@@ -31,6 +31,7 @@ handlecountrychange = async (country) => {
       <Heading />
       < br />
       <br />
+      <br />
       <CountryPicker handlecountrychange={this.handlecountrychange}/>
       <Cards data = {data}/>
       <Charts data={data} country={country}/>
